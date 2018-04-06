@@ -1,0 +1,29 @@
+<h3> <%= "#{@computer_case.name}" %> </h3>
+<div class="part_list">
+  <table class='ptable'>
+    <tr>
+      <td>Manufacturer:</td>
+      <td> <%= "#{@computer_case.manufacturer}" %></td>
+    </tr>
+    <tr>
+      <td>Case Type:</td>
+      <td> <%= "#{@computer_case.case_type}" %></td>
+    </tr>
+    <tr>
+      <td>Power Supply:</td>
+      <td> <%= "#{@computer_case.power_supply}" %></td>
+    </tr>
+    <tr>
+      <td>2.5'' Bay:</td>
+      <td> <%= "#{@computer_case.small_bay}" %></td>
+    </tr>
+    <tr>
+      <td>3.5'' Bay:</td>
+      <td> <%= "#{@computer_case.medium_bay}" %></td>
+    </tr>
+    <tr>
+      <td>Compatibility:</td>
+      <td> <%= "#{@computer_case.compatibility}" %></td>
+    </tr>
+  </table>
+</div>

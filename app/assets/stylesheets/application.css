@@ -1,0 +1,184 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require foundation_and_overrides
+ */
+
+div {
+    line-height: 1.2rem;
+}
+.top-bar, .top-bar-section li:not(.has-form) a:not(.button){
+  background: #0081B1;
+}
+.builds-wrapper {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 800px;
+}
+
+.build-tile {
+  position: relative;
+  vertical-align: top;
+  min-width: 300px;
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+  /* border: 3px solid #000; */
+  border-radius: 4px;
+  padding: 6px;
+  text-align: center;
+}
+
+.build-tile img{
+  max-width: 25rem;
+  height: auto;
+  border-radius: 4px;
+  border: 3px solid #fff;
+  background-color: #fff;
+}
+
+.select-form {
+  height: 300px;
+}
+.nav-bar {
+  font-family:  "Helvetica", "Arial", "Lucida Grande", "HelveticaNeue-Light";
+}
+.side-nav li a:not(.button) {
+    color: #0081B1;;
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #ebeaeb;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+a {
+    font-weight: 300;
+    font-family: 'Roboto', 'sans-serif';
+    text-decoration: none;
+    line-height: inherit;
+}
+
+* {
+   box-sizing: border-box;
+ }
+
+.no-padding .columns {
+    padding: 0px;
+}
+
+.side-nav {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: inside;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+ul,{
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+    list-style-position: outside;
+    font-family: inherit;
+}
+
+body {
+  padding: 0;
+  font-family: "Titillium Web",Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2b2b2b;
+  background-color: #fff;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased
+}
+
+.top-bar .name h1 a:hover,
+.top-bar .name h1 a:focus {
+  opacity: 0.7;
+}
+
+.top-bar .name h1{
+  font-size: 30px;
+}
+
+.searchbar {
+  margin: 1rem;
+}
+
+.search-field {
+  width: 0;
+  height: 40px;
+  margin-left: 1rem;
+  padding: 0;
+  border-radius: 50px;
+  border: none;
+  transition: all 0.5s ease;
+}
+
+.expand-search {
+  width: 80%;
+  max-width: calc(80% - 3rem);
+  border: 1px solid #c9c9c9;
+  padding: .5rem;
+}
+
+.main-wrapper {
+  display: inline-block;
+}
+
+.builds-wrapper{
+  position: relative;
+  margin: 0 auto;
+}
+
+.search-button {
+  border-radius: 50px;
+  padding: 0;
+}
+
+.top-field {
+  display: inline-block;
+  padding: 0;
+}
+
+.search-wrapper {
+  padding: 0;
+  display: inline-block;
+}
+
+.build-tile {
+  vertical-align: top;
+  min-width: 300px;
+  display: inline-block;
+  background-color: #0997c6;
+  width: 30%;
+  margin: 1%;
+  border: 3px solid #000;
+  border-radius: 4px;
+  padding: 6px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle
+}
+
+.button {
+  margin: 0;
+}

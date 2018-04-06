@@ -1,0 +1,8 @@
+<h1>Memory Cards</h1>
+<div class="parts">
+  <ul>
+  <% @memory_cards.each do |memory_card| %>
+    <li><%= link_to "#{memory_card.name}", memory_card_path(memory_card) %></li>
+  <% end %>
+  </ul>
+</div>

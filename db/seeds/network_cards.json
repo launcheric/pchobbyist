@@ -1,0 +1,41 @@
+[
+  {
+    "name": "TP-Link - TL-WDN4800 PCI-Express x1 802.11a/b/g/n Wi-Fi Adapter",
+    "manufacturer": "TP-Link",
+    "interface": "PCI-Express x1",
+    "protocols": "802.11a/b/g/n",
+    "security": "64/128 bit WEP, WPA-PSK/WPA2-PSK,802.1x"
+  },
+
+  {
+    "name": "Gigabyte - GC-WB867D-I PCI-Express x1 802.11a/b/g/n/ac Wi-Fi Adapter",
+    "manufacturer": "Gigabyte",
+    "interface": "PCI-Express x1",
+    "protocols": "802.11a/b/g/n/ac",
+    "security": "64/128 bit WEP, WPA-PSK/WPA2-PSK,802.1x"
+  },
+
+  {
+    "name": "Asus - PCE-AC68 PCI-Express x1 802.11a/b/g/n/ac Wi-Fi Adapter",
+    "manufacturer": "Asus",
+    "interface": "PCI-Express x1",
+    "protocols": "802.11a/b/g/n/ac",
+    "security": "64-bit WEP, 128-bit WEP, WPA2-PSK, WPA-PSK"
+  },
+
+  {
+    "name": "Edimax - EW-7811UTC USB 2.0 802.11a/b/g/n/ac Wi-Fi Adapter",
+    "manufacturer": "Edimax",
+    "interface": "USB 2.0",
+    "protocols": "802.11a/b/g/n/ac",
+    "security": "WEP 64/128-bit, WPA, WPA2, 802.1x"
+  },
+
+  {
+    "name": "TP-Link - TL-WDN4200 USB 2.0 802.11a/b/g/n Wi-Fi Adapter",
+    "manufacturer": "TP-Link",
+    "interface": "USB 2.0",
+    "protocols": "802.11a/b/g/n",
+    "security": "Support 64/128 bit WEP, WPA-PSK/WPA2-PSK,802.1x"
+  }
+]

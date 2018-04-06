@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Phanteks - Enthoo Pro M Tempered Glass (Black) ATX Mid Tower Case",
+    "manufacturer": "Phanteks",
+    "case_type": "ATX Mid Tower",
+    "power_supply": "No",
+    "small_bay": "3",
+    "medium_bay": "8",
+    "compatibility": "ATX, EATX, Micro ATX, Mini ITX"
+  },
+
+  {
+    "name": "Corsair - 760T Black ATX Full Tower Case",
+    "manufacturer": "Corsair",
+    "case_type": "ATX Full Tower",
+    "power_supply": "No",
+    "small_bay": "4",
+    "medium_bay": "6",
+    "compatibility": "ATX, EATX, Micro ATX, Mini ITX, XL ATX"
+  },
+
+  {
+    "name": "Logisys - CS136BK ATX Mid Tower Case w/480W Power Supply",
+    "manufacturer": "Logisys",
+    "case_type": "ATX Mid Tower",
+    "power_supply": "480 Watts",
+    "small_bay": "2",
+    "medium_bay": "3",
+    "compatibility": "Micro ATX"
+  },
+
+  {
+    "name": "NZXT - S340 Elite (White) ATX Mid Tower Case",
+    "manufacturer": "NZXT",
+    "case_type": "ATX Mid Tower",
+    "power_supply": "No",
+    "small_bay": "4",
+    "medium_bay": "2",
+    "compatibility": "ATX, Micro ATX, Mini ITX"
+  },
+
+  {
+    "name": "Fractal Design - Define R4 w/Window (Black Pearl) ATX Mid Tower Case",
+    "manufacturer": "Fractal Design",
+    "case_type": "ATX Mid Tower",
+    "power_supply": "No",
+    "small_bay": "2",
+    "medium_bay": "8",
+    "compatibility": "ATX, Micro ATX, Mini ITX, Thin Mini ITX"
+  },
+
+  {
+    "name": "Corsair - Air 540 ATX Mid Tower Case",
+    "manufacturer": "Corsair",
+    "case_type": "ATX Mid Tower",
+    "power_supply": "No",
+    "small_bay": "4",
+    "medium_bay": "2",
+    "compatibility": "ATX, EATX, Micro ATX, Mini ITX"
+  },
+
+  {
+    "name": "Fractal Design - Define R4 w/Window (Titanium Grey) ATX Mid Tower Case",
+    "manufacturer": "Fractal Design",
+    "case_type": "ATX Mid Tower",
+    "power_supply": "No",
+    "small_bay": "2",
+    "medium_bay": "8",
+    "compatibility": "ATX, Micro ATX, Mini ITX, Thin Mini ITX"
+  }
+]
+

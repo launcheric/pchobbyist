@@ -1,0 +1,55 @@
+[
+  {
+    "name": "EVGA - SuperNOVA G3 650W 80+ Gold Certified Fully-Modular ATX Power Supply",
+    "manufacturer": "EVGA",
+    "psu_type": "ATX",
+    "wattage": "650",
+    "modular": "Full",
+    "efficiency_certification": "80+ Gold"
+  },
+
+  {
+    "name": "EVGA - SuperNOVA G3 750W 80+ Gold Certified Fully-Modular ATX Power Supply",
+    "manufacturer": "EVGA",
+    "psu_type": "ATX",
+    "wattage": "750",
+    "modular": "Full",
+    "efficiency_certification": "80+ Gold"
+  },
+
+  {
+    "name": "Corsair - 1600W 80+ Titanium Certified Fully-Modular ATX Power Supply",
+    "manufacturer": "Corsair",
+    "psu_type": "ATX",
+    "wattage": "1600",
+    "modular": "Full",
+    "efficiency_certification": "80+ Titanium"
+  },
+
+  {
+    "name": "EVGA - B3 450W 80+ Bronze Certified Fully-Modular ATX Power Supply",
+    "manufacturer": "EVGA",
+    "psu_type": "ATX",
+    "wattage": "450",
+    "modular": "Full",
+    "efficiency_certification": "80+ Bronze"
+  },
+
+  {
+    "name": "Corsair - CXM 750W 80+ Bronze Certified Semi-Modular ATX Power Supply",
+    "manufacturer": "Corsair",
+    "psu_type": "ATX",
+    "wattage": "750",
+    "modular": "Semi",
+    "efficiency_certification": "80+ Bronze"
+  },
+
+  {
+    "name": "Apevia - 250W Mini ITX Power Supply",
+    "manufacturer": "Apevia",
+    "psu_type": "Mini ITX",
+    "wattage": "250",
+    "modular": "No",
+    "efficiency_certification": "N/A"
+  }
+]

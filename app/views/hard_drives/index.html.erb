@@ -1,0 +1,8 @@
+<h1>Hard Drives</h1>
+<div class="parts">
+  <ul>
+  <% @hard_drives.each do |hard_drive| %>
+    <li><%= link_to "#{hard_drive.name}", hard_drife_path(hard_drive) %></li>
+  <% end %>
+  </ul>
+</div>

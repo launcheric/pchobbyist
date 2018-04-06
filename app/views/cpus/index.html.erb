@@ -1,0 +1,8 @@
+<h1>Processors</h1>
+<div class="parts">
+  <ul>
+  <% @cpus.each do |cpu| %>
+    <li><%= link_to "#{cpu.name}", cpu_path(cpu) %></li>
+  <% end %>
+  </ul>
+</div>

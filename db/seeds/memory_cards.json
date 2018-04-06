@@ -1,0 +1,62 @@
+[
+  {
+    "name": "G.Skill - NT Series 4GB (1 x 4GB) DDR4-2133 Memory",
+    "manufacturer": "G.Skill",
+    "memory_type": "288",
+    "speed": "DDR4-2133",
+    "size": "4GB",
+    "cas_latency": "15",
+    "voltage": "1.2V",
+    "ecc": "No",
+    "registered": "No"
+  },
+
+  {
+    "name": "Micron - 4GB (1 x 4GB) DDR3-1600 Memory",
+    "manufacturer": "Micron",
+    "memory_type": "240",
+    "speed": "DDR3-1600",
+    "size": "4GB",
+    "cas_latency": "11",
+    "voltage": "1.5V",
+    "ecc": "No",
+    "registered": "No"
+  },
+
+  {
+    "name": "Crucial - 8GB (1 x 8GB) DDR4-2400 Memory",
+    "manufacturer": "Crucial",
+    "memory_type": "288",
+    "speed": "DDR4-2400",
+    "size": "8GB",
+    "cas_latency": "17",
+    "voltage": "1.2V",
+    "ecc": "No",
+    "registered": "No"
+  },
+
+  {
+    "name": "Kingston - HyperX Fury Black 8GB (1 x 8GB) DDR4-2133 Memory",
+    "manufacturer": "Kingston",
+    "memory_type": "288",
+    "speed": "DDR4-2133",
+    "size": "8GB",
+    "cas_latency": "14",
+    "voltage": "1.2V",
+    "ecc": "No",
+    "registered": "No"
+  },
+
+  {
+    "name": "G.Skill - Ripjaws X Series 4GB (1 x 4GB) DDR3-1600 Memory",
+    "manufacturer": "G.Skill",
+    "memory_type": "1600",
+    "speed": "DDR3-1600",
+    "size": "4GB",
+    "cas_latency": "9",
+    "voltage": "1.5V",
+    "ecc": "No",
+    "registered": "No"
+  }
+
+]

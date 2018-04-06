@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Samsung - 850 EVO-Series 250GB 2.5\" Solid State Drive",
+    "manufacturer": "Samsung",
+    "hdd_type": "SSD",
+    "capacity": "250GB",
+    "interface": "SATA 6 Gb/s",
+    "cache": "N/A",
+    "rpm": "N/A",
+    "form_factor": "2.5\""
+  },
+
+  {
+    "name": "SanDisk - SSD PLUS 240GB 2.5\" Solid State Drive",
+    "manufacturer": "SanDisk",
+    "hdd_type": "SSD",
+    "capacity": "240GB",
+    "interface": "SATA 6 Gb/s",
+    "cache": "N/A",
+    "rpm": "N/A",
+    "form_factor": "2.5\""
+  },
+  {
+    "name": "Crucial - MX500 500GB 2.5\" Solid State Drive",
+    "manufacturer": "Crucial",
+    "hdd_type": "SSD",
+    "capacity": "500GB",
+    "interface": "SATA 6 Gb/s",
+    "cache": "N/A",
+    "rpm": "N/A",
+    "form_factor": "2.5\""
+  },
+  {
+    "name": "Seagate - BarraCuda 4TB 3.5\" 5400RPM Internal Hard Drive",
+    "manufacturer": "Seagate",
+    "hdd_type": "HDD",
+    "capacity": "4TB",
+    "interface": "SATA 6 Gb/s",
+    "cache": "256MB",
+    "rpm": "5400",
+    "form_factor": "3.5\""
+  },
+  {
+    "name": "Western Digital - Red 8TB 3.5\" 5400RPM Internal Hard Drive",
+    "manufacturer": "Western Digital",
+    "hdd_type": "HDD",
+    "capacity": "8TB",
+    "interface": "SATA 6 Gb/s",
+    "cache": "128MB",
+    "rpm": "5400",
+    "form_factor": "3.5\""
+  },
+
+  {
+    "name": "Western Digital - Caviar Blue 1TB 3.5\" 7200RPM Internal Hard Drive",
+    "manufacturer": "Western Digital",
+    "hdd_type": "HDD",
+    "capacity": "1TB",
+    "interface": "SATA 6 Gb/s",
+    "cache": "64MB",
+    "rpm": "7200",
+    "form_factor": "3.5\""
+  },
+
+  {
+    "name": "Seagate - Barracuda 2TB 3.5\" 7200RPM Internal Hard Drive",
+    "manufacturer": "Seagate",
+    "hdd_type": "HDD",
+    "capacity": "2TB",
+    "interface": "SATA 6 Gb/s",
+    "cache": "64MB",
+    "rpm": "7200",
+    "form_factor": "3.5\""
+  }
+]
+

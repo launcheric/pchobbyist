@@ -1,0 +1,8 @@
+<h1>Power Supplys</h1>
+<div class="parts">
+  <ul>
+  <% @power_supplys.each do |power_supply| %>
+    <li><%= link_to "#{power_supply.name}", power_supply_path(power_supply) %></li>
+  <% end %>
+  </ul>
+</div>

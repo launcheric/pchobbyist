@@ -1,0 +1,9 @@
+<h1>My builds:</h1>
+
+<div class="builds">
+  <ul>
+  <% @builds.each do |build| %>
+    <li><%= link_to "#{build.name}", build_path(build) %></li>
+  <% end %>
+  </ul>
+</div>

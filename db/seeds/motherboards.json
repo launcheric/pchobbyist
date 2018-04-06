@@ -1,0 +1,107 @@
+[
+  {
+    "name": "MSI - B350 PC MATE ATX AM4 Motherboard",
+    "manufacturer": "MSI",
+    "form_factor": "ATX",
+    "socket": "AM4",
+    "chipset": "AMD B350",
+    "memory_pin": "288",
+    "memory_slots": "4",
+    "memory_type": "DDR4-1866 / 2133 / 2400 / 2666 / 2933 / 3200",
+    "maximum_memory": "64GB",
+    "raid_support": "Yes"
+  },
+
+  {
+    "name": "Asus - PRIME A320M-K Micro ATX AM4 Motherboard",
+    "manufacturer": "Asus",
+    "form_factor": "Micro ATX",
+    "socket": "AM4",
+    "chipset": "AMD A320",
+    "memory_pin": "288",
+    "memory_slots": "2",
+    "memory_type": "DDR4-2133 / 2400 / 2666 / 2933 / 3200",
+    "maximum_memory": "32GB",
+    "raid_support": "Yes"
+  },
+
+  {
+    "name": "Asus - M5A78L-M PLUS/USB3 Micro ATX AM3+ Motherboard",
+    "manufacturer": "Asus",
+    "form_factor": "Micro ATX",
+    "socket": "AM3+",
+    "chipset": "AMD A78",
+    "memory_pin": "240",
+    "memory_slots": "4",
+    "memory_type": "DDR3-1066 / 1333 / 1600 / 1800 / 1866 / 2000",
+    "maximum_memory": "32GB",
+    "raid_support": "No"
+  },
+
+  {
+    "name": "ASRock - 970 Pro3 R2.0 ATX AM3+ Motherboard",
+    "manufacturer": "ASRock",
+    "form_factor": "ATX",
+    "socket": "AM3+",
+    "chipset": "AMD 970",
+    "memory_pin": "240",
+    "memory_slots": "4",
+    "memory_type": "DDR3-800 / 1066 / 1333 / 1600 / 1800 / 1866 / 2100",
+    "maximum_memory": "64GB",
+    "raid_support": "Yes"
+  },
+
+  {
+    "name": "MSI - B250M GAMING PRO Micro ATX LGA1151 Motherboard",
+    "manufacturer": "MSI",
+    "form_factor": "Micro ATX",
+    "socket": "LGA1151",
+    "chipset": "Intel B250",
+    "memory_pin": "288",
+    "memory_slots": "2",
+    "memory_type": "DDR4-2133 / 2400",
+    "maximum_memory": "32GB",
+    "raid_support": "No"
+  },
+
+  {
+    "name": "Gigabyte - Z370 AORUS Ultra Gaming (rev. 1.0) ATX LGA1151 Motherboard",
+    "manufacturer": "Gigabyte",
+    "form_factor": "ATX",
+    "socket": "LGA1151",
+    "chipset": "Intel Z370",
+    "memory_pin": "288",
+    "memory_slots": "4",
+    "memory_type": "DDR4-2133 / 2400 / 2666 / 2800 / 3000 / 3200 / 3300 / 3333 / 3400 / 3466 / 3600 / 3666 / 3733 / 3800 / 3866 / 4000",
+    "maximum_memory": "64GB",
+    "raid_support": "YEs"
+  },
+
+  {
+    "name": "Gigabyte - GA-B85-HD3-A (rev. 1.0) ATX LGA1150 Motherboard",
+    "manufacturer": "Gigabyte",
+    "form_factor": "ATX",
+    "socket": "LGA1150",
+    "chipset": "Intel B85",
+    "memory_pin": "240",
+    "memory_slots": "4",
+    "memory_type": "DDR3-1333 / 1600",
+    "maximum_memory": "32GB",
+    "raid_support": "No"
+  },
+
+  {
+    "name": "Asus - H81M-D PLUS Micro ATX LGA1150 Motherboard",
+    "manufacturer": "Asus",
+    "form_factor": "Micro ATX",
+    "socket": "LGA1150",
+    "chipset": "Intel H81",
+    "memory_pin": "240",
+    "memory_slots": "2",
+    "memory_type": "DDR3-1066 / 1333 / 1600",
+    "maximum_memory": "16GB",
+    "raid_support": "No"
+  }
+
+]
+

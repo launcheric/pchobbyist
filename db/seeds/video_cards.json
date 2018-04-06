@@ -1,0 +1,109 @@
+[
+  {
+    "name": "MSI - GeForce GTX 1060 6GB 6GB GAMING X Video Card",
+    "manufacturer": "MSI",
+    "interface": "PCI-Express x16",
+    "chipset": "GeForce GTX 1060 6GB",
+    "memory_size": "6GB",
+    "memory_type": "GDDR5",
+    "core_clock": "1.51GHz",
+    "boost_clock": "1.81GHz",
+    "thermal_design_power": "120"
+  },
+
+  {
+    "name": "Asus - GeForce GTX 1080 Ti 11GB STRIX GAMING OC Video Card",
+    "manufacturer": "Asus",
+    "interface": "PCI-Express x16",
+    "chipset": "GeForce GTX 1080 Ti",
+    "memory_size": "11GB",
+    "memory_type": "GDDR5X",
+    "core_clock": "1.57GHz",
+    "boost_clock": "1.71GHz",
+    "thermal_design_power": "250"
+  },
+
+  {
+    "name": "MSI - GeForce GTX 1050 2GB Video Card",
+    "manufacturer": "MSI",
+    "interface": "PCI-Express x16",
+    "chipset": "GeForce GTX 1050",
+    "memory_size": "2GB",
+    "memory_type": "GDDR5",
+    "core_clock": "1.40GHz",
+    "boost_clock": "1.52GHz",
+    "thermal_design_power": "75"
+  },
+
+  {
+    "name": "MSI - GeForce GTX 1050 Ti 4GB Video Card",
+    "manufacturer": "MSI",
+    "interface": "PCI-Express x16",
+    "chipset": "GeForce GTX 1050 Ti",
+    "memory_size": "4GB",
+    "memory_type": "GDDR5",
+    "core_clock": "1.34GHz",
+    "boost_clock": "1.46GHz",
+    "thermal_design_power": "75"
+  },
+
+  {
+    "name": "NVIDIA - Titan V 12GB Video Card",
+    "manufacturer": "NVIDIA",
+    "interface": "PCI-Express x16",
+    "chipset": "Titan V",
+    "memory_size": "12GB",
+    "memory_type": "HBM2",
+    "core_clock": "1.2GHz",
+    "boost_clock": "1.46GHz",
+    "thermal_design_power": "250"
+  },
+
+  {
+    "name": "Sapphire - Radeon RX 580 8GB NITRO+ Video Card",
+    "manufacturer": "Sapphire",
+    "interface": "PCI-Express x16",
+    "chipset": "Radeon RX 580",
+    "memory_size": "8GB",
+    "memory_type": "GDDR5",
+    "core_clock": "1.26GHz",
+    "boost_clock": "1.41GHz",
+    "thermal_design_power": "225"
+  },
+
+  {
+    "name": "Sapphire - Radeon RX 580 8GB NITRO+ Video Card",
+    "manufacturer": "Sapphire",
+    "interface": "PCI-Express x16",
+    "chipset": "Radeon RX 580",
+    "memory_size": "8GB",
+    "memory_type": "GDDR5",
+    "core_clock": "1.26GHz",
+    "boost_clock": "1.41GHz",
+    "thermal_design_power": "225"
+  },
+
+  {
+    "name": "Asus - Radeon RX 550 - 512 2GB Video Card",
+    "manufacturer": "Asus",
+    "interface": "PCI-Express x16",
+    "chipset": "Radeon RX 550 - 512",
+    "memory_size": "2GB",
+    "memory_type": "GDDR5",
+    "core_clock": "1.10GHz",
+    "boost_clock": "1.18GHz",
+    "thermal_design_power": "75"
+  },
+
+  {
+    "name": "Asus - Radeon RX 580 8GB STRIX Video Card",
+    "manufacturer": "Asus",
+    "interface": "PCI-Express x16",
+    "chipset": "Radeon RX 580",
+    "memory_size": "8GB",
+    "memory_type": "GDDR5",
+    "core_clock": "1.26GHz",
+    "boost_clock": "1.36GHz",
+    "thermal_design_power": "185"
+  }
+]

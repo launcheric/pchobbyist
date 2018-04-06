@@ -1,0 +1,8 @@
+<h1>Cpu Coolers</h1>
+<div class="parts">
+  <ul>
+  <% @cpu_coolers.each do |cpu_cooler| %>
+    <li><%= link_to "#{cpu_cooler.name}", cpu_cooler_path(cpu_cooler) %></li>
+  <% end %>
+  </ul>
+</div>

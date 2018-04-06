@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Intel - Core i7-8700K 3.7GHz 6-Core Processor",
+    "manufacturer": "Intel",
+    "data_width": "64",
+    "socket": "LGA1151",
+    "operating_frequency": "3.7GHz",
+    "max_turbo_frequency": "4.7GHz",
+    "cores": "6",
+    "lighography": "14 nm",
+    "thermal_design_power": "95 Watts",
+    "cooler": "No",
+    "maximum_memory": "64",
+    "integrated_graphics": "Intel UHD Graphics 630"
+  },
+
+  {
+    "name": "AMD - Ryzen 5 1600 3.2GHz 6-Core Processor",
+    "manufacturer": "AMD",
+    "data_width": "64",
+    "socket": "AM4",
+    "operating_frequency": "3.2GHz",
+    "max_turbo_frequency": "3.6GHz",
+    "cores": "6",
+    "lighography": "14 nm",
+    "thermal_design_power": "65 Watts",
+    "cooler": "Yes",
+    "maximum_memory": "64",
+    "integrated_graphics": "No"
+  },
+
+  {
+    "name": "Intel - Core i5-8600K 3.6GHz 6-Core Processor",
+    "manufacturer": "Intel",
+    "data_width": "64",
+    "socket": "LGA1151",
+    "operating_frequency": "3.6GHz",
+    "max_turbo_frequency": "4.3GHz",
+    "cores": "6",
+    "lighography": "14 nm",
+    "thermal_design_power": "95 Watts",
+    "cooler": "No",
+    "maximum_memory": "64",
+    "integrated_graphics": "Intel UHD Graphics 630"
+  },
+
+  {
+    "name": "Intel - Core i7-7700K 4.2GHz Quad-Core Processor",
+    "manufacturer": "Intel",
+    "data_width": "64",
+    "socket": "LGA1151",
+    "operating_frequency": "4.2GHz",
+    "max_turbo_frequency": "4.5GHz",
+    "cores": "4",
+    "lighography": "14 nm",
+    "thermal_design_power": "91 Watts",
+    "cooler": "No",
+    "maximum_memory": "64",
+    "integrated_graphics": "Intel UHD Graphics 630"
+  },
+
+  {
+    "name": "AMD - Ryzen 3 2200G 3.5GHz Quad-Core Processor",
+    "manufacturer": "AMD",
+    "data_width": "64",
+    "socket": "AM4",
+    "operating_frequency": "3.5GHz",
+    "max_turbo_frequency": "3.7GHz",
+    "cores": "4",
+    "lighography": "14 nm",
+    "thermal_design_power": "65 Watts",
+    "cooler": "Yes",
+    "maximum_memory": "64",
+    "integrated_graphics": "Radeon Vega 8"
+  },
+
+  {
+    "name": "AMD - Ryzen 5 2400G 3.6GHz Quad-Core Processor",
+    "manufacturer": "AMD",
+    "data_width": "64",
+    "socket": "AM4",
+    "operating_frequency": "3.6GHz",
+    "max_turbo_frequency": "3.9GHz",
+    "cores": "4",
+    "lighography": "14 nm",
+    "thermal_design_power": "65 Watts",
+    "cooler": "Yes",
+    "maximum_memory": "64",
+    "integrated_graphics": "Radeon Vega 11"
+  },
+
+  {
+    "name": "AMD - Ryzen 5 1600X 3.6GHz 6-Core Processor",
+    "manufacturer": "AMD",
+    "data_width": "64",
+    "socket": "AM4",
+    "operating_frequency": "3.6GHz",
+    "max_turbo_frequency": "4.0GHz",
+    "cores": "6",
+    "lighography": "14 nm",
+    "thermal_design_power": "95 Watts",
+    "cooler": "No",
+    "maximum_memory": "64",
+    "integrated_graphics": "No"
+  },
+
+  {
+    "name": "Intel - Core i3-8100 3.6GHz Quad-Core Processor",
+    "manufacturer": "Intel",
+    "data_width": "64",
+    "socket": "LGA1151",
+    "operating_frequency": "3.6GHz",
+    "max_turbo_frequency": "Frequency Locked",
+    "cores": "4",
+    "lighography": "14 nm",
+    "thermal_design_power": "65 Watts",
+    "cooler": "Yes",
+    "maximum_memory": "64",
+    "integrated_graphics": "Intel UHD Graphics 630"
+  },
+
+  {
+    "name": "AMD - FX-8350 4GHz 8-Core Processor",
+    "manufacturer": "AMD",
+    "data_width": "64",
+    "socket": "AM3+",
+    "operating_frequency": "4.0GHz",
+    "max_turbo_frequency": "4.2GHz",
+    "cores": "8",
+    "lighography": "32 nm",
+    "thermal_design_power": "125 Watts",
+    "cooler": "Yes",
+    "maximum_memory": "64",
+    "integrated_graphics": "No"
+  },
+
+  {
+    "name": "Intel - Pentium G4400 3.3GHz Dual-Core Processor",
+    "manufacturer": "Intel",
+    "data_width": "64",
+    "socket": "LGA1151",
+    "operating_frequency": "3.3GHz",
+    "max_turbo_frequency": "Frequency Locked",
+    "cores": "2",
+    "lighography": "14 nm",
+    "thermal_design_power": "54 Watts",
+    "cooler": "Yes",
+    "maximum_memory": "64",
+    "integrated_graphics": "Intel UHD Graphics 510"
+  },
+
+  {
+    "name": "Intel - Core i5-7600 3.5GHz Quad-Core Processor",
+    "manufacturer": "Intel",
+    "data_width": "64",
+    "socket": "LGA1151",
+    "operating_frequency": "3.5GHz",
+    "max_turbo_frequency": "4.1GHz",
+    "cores": "4",
+    "lighography": "14 nm",
+    "thermal_design_power": "65 Watts",
+    "cooler": "No",
+    "maximum_memory": "64",
+    "integrated_graphics": "Intel UHD Graphics 630"
+  },
+
+  {
+    "name": "Intel - Celeron G3930 2.9GHz Dual-Core Processor",
+    "manufacturer": "Intel",
+    "data_width": "64",
+    "socket": "LGA1151",
+    "operating_frequency": "2.9GHz",
+    "max_turbo_frequency": "Frequency Locked",
+    "cores": "6",
+    "lighography": "14 nm",
+    "thermal_design_power": "51 Watts",
+    "cooler": "No",
+    "maximum_memory": "64",
+    "integrated_graphics": "Intel UHD Graphics 610"
+  },
+
+  {
+    "name": "AMD - A4-6300 3.7GHz Dual-Core Processor",
+    "manufacturer": "AMD",
+    "data_width": "64",
+    "socket": "FM2",
+    "operating_frequency": "3.9GHz",
+    "max_turbo_frequency": "Frequency Locked",
+    "cores": "2",
+    "lighography": "32 nm",
+    "thermal_design_power": "65 Watts",
+    "cooler": "Yes",
+    "maximum_memory": "64",
+    "integrated_graphics": "Radeon HD 8370D"
+  },
+
+  {
+    "name": "Intel - Core i3-2120 3.3GHz Dual-Core Processor",
+    "manufacturer": "Intel",
+    "data_width": "64",
+    "socket": "LGA1155",
+    "operating_frequency": "3.3GHz",
+    "max_turbo_frequency": "Frequency Locked",
+    "cores": "2",
+    "lighography": "32 nm",
+    "thermal_design_power": "65 Watts",
+    "cooler": "Yes",
+    "maximum_memory": "64",
+    "integrated_graphics": "Intel HD Graphics 2000"
+  },
+
+  {
+    "name": "AMD - A6-6400K 3.9GHz Dual-Core Processor",
+    "manufacturer": "AMD",
+    "data_width": "64",
+    "socket": "FM2",
+    "operating_frequency": "3.9GHz",
+    "max_turbo_frequency": "Frequency Locked",
+    "cores": "2",
+    "lighography": "32 nm",
+    "thermal_design_power": "65 Watts",
+    "cooler": "Yes",
+    "maximum_memory": "64",
+    "integrated_graphics": "Radeon HD 8470D"
+  },
+
+  {
+    "name": "Intel - Pentium G3258 3.2GHz Dual-Core OEM/Tray Processor",
+    "manufacturer": "Intel",
+    "data_width": "64",
+    "socket": "LGA1150",
+    "operating_frequency": "3.2GHz",
+    "max_turbo_frequency": "Frequency Locked",
+    "cores": "2",
+    "lighography": "22 nm",
+    "thermal_design_power": "53 Watts",
+    "cooler": "No",
+    "maximum_memory": "64",
+    "integrated_graphics": "Intel HD Graphics"
+  }
+]
+

@@ -1,0 +1,8 @@
+<h1>Network Cards</h1>
+<div class="parts">
+  <ul>
+  <% @network_cards.each do |network_card| %>
+    <li><%= link_to "#{network_card.name}", network_card_path(network_card) %></li>
+  <% end %>
+  </ul>
+</div>

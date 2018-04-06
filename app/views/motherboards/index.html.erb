@@ -1,0 +1,8 @@
+<h1>Motherboards</h1>
+<div class="parts">
+  <ul>
+  <% @motherboards.each do |motherboard| %>
+    <li><%= link_to "#{motherboard.name}", motherboard_path(motherboard) %></li>
+  <% end %>
+  </ul>
+</div>

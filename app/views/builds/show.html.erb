@@ -1,0 +1,95 @@
+<div class="large-10 columns content">
+  <h3> <%= "#{@build.name}" %> </h3>
+  <div class="build-page">
+    <div class="part_list">
+      <table class = "ptable">
+        <tr>
+          <td>Name:</td>
+          <td> <%= "#{@build.name}" %></td>
+        </tr>
+        <tr>
+          <td>Description:</td>
+          <td> <%= "#{@build.description}" %></td>
+        </tr>
+        <tr>
+          <td>Cpu:</td>
+          <td> <%= "#{@build.cpu.name}" %></td>
+        </tr>
+        <tr>
+          <td>Cpu Cooler:</td>
+          <% if @build.cpu_cooler_id %>
+          <td> <%= "#{@build.cpu_cooler.name}" %></td>
+          <% else %>
+          <td> <%= "Didn't select any." %></td>
+          <% end %>
+        </tr>
+        <tr>
+          <td>Motherboard:</td>
+          <td> <%= "#{@build.motherboard.name}" %></td>
+        </tr>
+        <tr>
+          <td>Computer Case:</td>
+          <td> <%= "#{@build.computer_case.name}" %></td>
+        </tr>
+        <tr>
+          <td>Network Card:</td>
+          <% if @build.network_card_id %>
+            <td> <%= "#{@build.network_card.name}" %></td>
+          <% else %>
+            <td><%= "Didn't select any." %></td>
+          <% end %>
+        </tr>
+        <tr>
+          <td>Power Supply:</td>
+          <td> <%= "#{@build.power_supply.name}" %></td>
+        </tr>
+        <tr>
+          <td>Video Card:</td>
+          <% if @build.video_card_id %>
+            <td> <%= "#{@build.video_card.name}" %></td>
+          <% else %>
+            <td><%= "Didn't select any." %></td>
+          <% end %>
+        </tr>
+      </table>
+
+      <%= form_for @build do |f| %>
+
+        <div class="field">
+          <%= f.label :image %><br>
+          <%= f.file_field :image_url, accept: 'image/jpeg, image/gif, image/png, image/jpg' %>
+        </div>
+        <div class="actions">
+          <%= f.submit %>
+        </div>
+      <% end %>
+
+
+    </div>
+    <div class="comment">
+      <div class="comments">
+        <ul>
+        <% @build.comments.each do |comment| %>
+          <li><%= comment.user.username %></li>
+          <li><%= comment.body %></li>
+        <% end %>
+        </ul>
+
+      </div>
+      <div class="new-comment">
+        <% if current_user  %>
+          <%= form_for [@build, Comment.new] do |f| %>
+            <p>
+            <%= f.label :body, "Add your comment:" %><br/>
+            <%= f.text_area :body %>
+            </p>
+            <p><%= f.submit "Add Comment"%></p>
+          <% end %>
+        <% else  %>
+          <p>Please sign in to comment.</p>
+        <% end   %>
+      </div>
+
+    </div>
+  </div>
+</div>
