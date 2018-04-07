@@ -152,7 +152,13 @@ network_cards.each do |network_card|
   )
 end
 
-6.times do
+User.create!(
+  email: "cpumonster@gmail.com",
+  password: "pw1234",
+  username: "CPUmonster"
+)
+
+4.times do
     Build.create!(
     user: User.first,
     name: "My First Build",
