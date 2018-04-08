@@ -8,7 +8,7 @@ feature 'user signs in', %Q{
   scenario 'specify valid credentials' do
     user = FactoryBot.create(:user)
 
-    visit new_user_session_path
+    visit new_user_session_path(locale: 'en')
 
     fill_in 'Email', with: user.email
     fill_in 'Password', with: user.password
@@ -20,7 +20,7 @@ feature 'user signs in', %Q{
   end
 
   scenario 'specify invalid credentials' do
-    visit new_user_session_path
+    visit new_user_session_path(locale: 'en')
 
     click_button 'Log in'
     expect(page).to have_content('Invalid Email or password')
