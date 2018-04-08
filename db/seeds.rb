@@ -20,6 +20,7 @@ MemoryCount.delete_all
 HdCount.delete_all
 Comment.delete_all
 Tutorial.delete_all
+User.delete_all
 
 cpus = ActiveSupport::JSON.decode(File.read('db/seeds/cpus.json'))
 computer_cases = ActiveSupport::JSON.decode(File.read('db/seeds/computer_cases.json'))
