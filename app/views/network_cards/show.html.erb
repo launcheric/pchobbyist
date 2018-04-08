@@ -2,23 +2,19 @@
 <div class="part_list">
   <table class = "ptable">
     <tr>
-      <td>Name:</td>
-      <td> <%= "#{@network_card.name}" %></td>
-    </tr>
-    <tr>
-      <td>Manufacturer:</td>
+      <td><%=t "show.manufacturer" %>:</td>
       <td> <%= "#{@network_card.manufacturer}" %></td>
     </tr>
     <tr>
-      <td>Interface:</td>
+      <td><%=t "show.interface" %>:</td>
       <td> <%= "#{@network_card.interface}" %></td>
     </tr>
     <tr>
-      <td>Protocols:</td>
+      <td><%=t "show.protocols" %>:</td>
       <td> <%= "#{@network_card.protocols}" %></td>
     </tr>
     <tr>
-      <td>Security:</td>
+      <td><%=t "show.security" %>:</td>
       <td> <%= "#{@network_card.security}" %></td>
     </tr>
   </table>

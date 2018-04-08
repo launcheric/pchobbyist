@@ -27,7 +27,6 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'mini_magick'
-
 gem 'dotenv-rails', groups: [:development, :test]
 group :development, :test do
   gem 'coveralls', require: false

@@ -2,35 +2,31 @@
 <div class="part_list">
   <table class = "ptable">
     <tr>
-      <td>Name:</td>
-      <td> <%= "#{@hard_drive.name}" %></td>
-    </tr>
-    <tr>
-      <td>Manufacturer:</td>
+      <td><%=t "show.manufacturer" %>:</td>
       <td> <%= "#{@hard_drive.manufacturer}" %></td>
     </tr>
     <tr>
-      <td>Hdd Type:</td>
+      <td><%=t "show.hdd_type" %>:</td>
       <td> <%= "#{@hard_drive.hdd_type}" %></td>
     </tr>
     <tr>
-      <td>Capacity:</td>
+      <td><%=t "show.capacity" %>:</td>
       <td> <%= "#{@hard_drive.capacity}" %></td>
     </tr>
     <tr>
-      <td>Interface:</td>
+      <td><%=t "show.interface" %>:</td>
       <td> <%= "#{@hard_drive.interface}" %></td>
     </tr>
     <tr>
-      <td>Cache:</td>
+      <td><%=t "show.cache" %>:</td>
       <td> <%= "#{@hard_drive.cache}" %></td>
     </tr>
     <tr>
-      <td>RPM:</td>
+      <td><%=t "show.rpm" %>:</td>
       <td> <%= "#{@hard_drive.rpm}" %></td>
     </tr>
     <tr>
-      <td>Form Factor:</td>
+      <td><%=t "show.form_factor" %>:</td>
       <td> <%= "#{@hard_drive.form_factor}" %></td>
     </tr>
   </table>

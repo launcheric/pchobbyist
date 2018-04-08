@@ -2,27 +2,23 @@
 <div class="part_list">
   <table class = "ptable">
     <tr>
-      <td>Name:</td>
-      <td> <%= "#{@power_supply.name}" %></td>
-    </tr>
-    <tr>
-      <td>Manufacturer:</td>
+      <td><%=t "show.manufacturer" %>:</td>
       <td> <%= "#{@power_supply.manufacturer}" %></td>
     </tr>
     <tr>
-      <td>Psu Type:</td>
+      <td><%=t "show.psu_type" %>:</td>
       <td> <%= "#{@power_supply.psu_type}" %></td>
     </tr>
     <tr>
-      <td>Wattage:</td>
+      <td><%=t "show.wattage" %>:</td>
       <td> <%= "#{@power_supply.wattage} Watts" %></td>
     </tr>
     <tr>
-      <td>Modular:</td>
+      <td><%=t "show.modular" %>:</td>
       <td> <%= "#{@power_supply.modular}" %></td>
     </tr>
     <tr>
-      <td>Efficiency Certification:</td>
+      <td><%=t "show.efficiency_certification" %>:</td>
       <td> <%= "#{@power_supply.efficiency_certification}" %></td>
     </tr>
   </table>

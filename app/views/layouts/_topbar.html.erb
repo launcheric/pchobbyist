@@ -2,21 +2,22 @@
 <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name">
-          <h1><a href="/">PCHobbyist</a></h1>
+          <h1><a href="/"> <%= t "layout.title" %></a></h1>
         </li>
       </ul>
   <section class="top-bar-section">
     <ul class="right">
+      <li><%= link_to "English", locale: "en" %></li>
+      <li><%= link_to "中文", locale: "zh-CN" %></li>
       <%- if current_user -%>
-        <li class="active"><%= link_to 'My Builds', user_path(current_user.id) %></li>
-        <li class="active"><%= link_to 'Edit Profile', edit_user_registration_path, method: :get %></li>
-        <li class="active"><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>
+        <li class="active"><%= link_to user_path(current_user.id) do %><%=t "layout.my_build_link" %><% end %></li>
+        <li class="active"><%= link_to edit_user_registration_path do %><%=t "layout.edit_profile" %><% end %></li>
+        <li class="active"><%= link_to destroy_user_session_path, method: :delete do %><%=t "layout.sign_out" %><% end %></li>
       <%- else -%>
-        <li><%= link_to 'Sign Up', new_user_registration_path %></li>
-        <li><%= link_to 'Sign In', new_user_session_path %></li>
+        <li><%= link_to new_user_registration_path do %><%=t "layout.sign_up" %> <% end %></li>
+        <li><%= link_to new_user_session_path do %><%=t "layout.sign_in" %> <% end %></li>
       <%- end -%>
     </ul>
   </section>
 
 </nav>
-
