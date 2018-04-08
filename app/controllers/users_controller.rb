@@ -4,4 +4,7 @@ class UsersController < ApplicationController
   def show
     @builds = current_user.builds
   end
+  def destroy
+    binding.pry
+  end
 end

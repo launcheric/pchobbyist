@@ -4,7 +4,7 @@
     <div class="part_list">
       <table class = "ptable">
         <tr>
-          <td>Name:</td>
+          <td><%=t "show.name" %>:</td>
           <td> <%= "#{@build.name}" %></td>
         </tr>
         <tr>
@@ -52,7 +52,7 @@
           <% end %>
         </tr>
       </table>
-
+      <% if @build.user == current_user%>
       <%= form_for @build do |f| %>
 
         <div class="field">
@@ -64,7 +64,7 @@
         </div>
       <% end %>
 
-
+      <% end %>
     </div>
     <div class="comment">
       <div class="comments">

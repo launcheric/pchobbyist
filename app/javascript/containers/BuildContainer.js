@@ -5,7 +5,6 @@ import DefaultBuilds from '../constants/DefaultBuilds';
 import Search from '../components/Search';
 import BuildButton from '../components/BuildButton';
 
-
 class BuildContainer extends Component {
   constructor(props) {
     super(props);

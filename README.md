@@ -10,6 +10,11 @@ Developer: Eric(Haoxiang) Ruan
 * Minimagick
 * carrierwave
 * fog
+* i18n
+* react-i18next
+* i18next-browser-languageDetector
+* i18next-locize-backend
+* locize-editor
 
 ## Gems
 * "active_model_serializers"

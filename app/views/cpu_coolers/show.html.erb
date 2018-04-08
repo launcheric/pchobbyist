@@ -2,42 +2,38 @@
 <div class="part_list">
   <table class = "ptable">
     <tr>
-      <td>Name:</td>
-      <td> <%= "#{@cpu_cooler.name}" %></td>
-    </tr>
-    <tr>
-      <td>Manufacturer:</td>
+      <td><%=t "show.manufacturer" %>:</td>
       <td> <%= "#{@cpu_cooler.manufacturer}" %></td>
     </tr>
     <tr>
-      <td>Supported Sockets:</td>
+      <td><%=t "show.supported_sockets" %>:</td>
       <td> <%= "#{@cpu_cooler.supported_sockets}" %></td>
     </tr>
     <tr>
-      <td>Liquid Cooler:</td>
+      <td><%=t "show.liquid_cooler" %>:</td>
       <td> <%= "#{@cpu_cooler.liquid_cooler}" %></td>
     </tr>
     <% if @cpu_cooler.liquid_cooler == "No" %>
       <tr>
-        <td>Bearing Type:</td>
+        <td><%=t "show.bearing_type" %>:</td>
         <td> <%= "#{@cpu_cooler.bearing_type}" %></td>
       </tr>
       <tr>
-        <td>Height:</td>
+        <td><%=t "show.height" %>:</td>
         <td> <%= "#{@cpu_cooler.height}" %></td>
       </tr>
     <% else  %>
       <tr>
-        <td>Radiator Size:</td>
+        <td><%=t "show.radiator_size" %>:</td>
         <td> <%= "#{@cpu_cooler.radiator_size}" %></td>
       </tr>
     <% end  %>
       <tr>
-      <td>Fan Rpm:</td>
+      <td><%=t "show.fan_rpm" %>:</td>
       <td> <%= "#{@cpu_cooler.fan_rpm}" %></td>
     </tr>
     <tr>
-      <td>Noise Level:</td>
+      <td><%=t "show.noise_level" %>:</td>
       <td> <%= "#{@cpu_cooler.noise_level}" %></td>
     </tr>
   </table>
