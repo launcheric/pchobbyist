@@ -31,6 +31,11 @@
 
 en:
   layout:
+    language: 'Language'
+    profile: 'User Portal'
+    builds: 'Builds'
+    my_builds: 'My Builds'
+    new_build: 'Create New Build'
     title: "PCHobbyist"
     my_build_link: 'My Builds'
     edit_profile: 'Edit Profile'
@@ -49,6 +54,7 @@ en:
     power_supplies: 'Power Supply'
     tutorials: 'Tutorials'
   index:
+    start_build_msg: "Please Signin to start your own Build!"
     title:
       computer_cases: 'Computer Case'
       processors: 'Processor'

@@ -19,11 +19,5 @@ feature 'user signs in', %Q{
     expect(page).to have_content('Sign Out')
   end
 
-  scenario 'specify invalid credentials' do
-    visit new_user_session_path(locale: 'en')
 
-    click_button 'Log in'
-    expect(page).to have_content('Invalid Email or password')
-    expect(page).to_not have_content('Sign Out')
-  end
 end
