@@ -1,10 +1,10 @@
 <div class="large-10 columns content">
-  <h3><%= t "index.title.tutorials"  %>:</h3>
-  <div class="Tutorials">
-    <ul>
+  <h1><%= t "index.title.tutorials"  %>:</h1>
+  <div class="Tutorials-wrapper">
+    <ul class='large-block-grid-3'>
     <% @tutorials.each do |tutorial| %>
-      <li><iframe src="https://www.youtube.com/embed/<%=tutorial.url%>?rel=0&autoplay=<%= params[:autoplay] || 0 %>" frameborder='1' allowfullscreen></iframe></li>
-      <li><%= tutorial.name  %></li>
+        <li><iframe width="450" height="300" src="https://www.youtube.com/embed/<%=tutorial.url%>?rel=0&autoplay=<%= params[:autoplay] || 0 %>" frameborder='1' allowfullscreen></iframe></br>
+          <%= tutorial.name  %></li>
     <% end %>
     </ul>
   </div>

@@ -154,60 +154,126 @@ network_cards.each do |network_card|
 end
 
 User.create!(
+  email: "harddrive@gmail.com",
+  password: "pw1234",
+  username: "ServerKing"
+)
+User.create!(
   email: "cpumonster@gmail.com",
   password: "pw1234",
   username: "CPUmonster"
 )
+User.create!(
+  email: "launcheric@gmail.com",
+  password: "pw1234",
+  username: "launcheric"
+)
 
-4.times do
-    Build.create!(
-    user: User.first,
-    name: "My First Build",
-    description: "This is super cool!",
-    computer_case: ComputerCase.first,
-    cpu_cooler_id: "",
-    cpu: Cpu.first,
-    motherboard: Motherboard.first,
-    network_card_id: "",
-    power_supply: PowerSupply.first,
-    video_card_id: "",
-    image_url: ""
-  )
-    Build.create!(
-    user: User.first,
-    name: "My Second Build",
-    description: "This is super cool!",
-    computer_case: ComputerCase.last,
-    cpu_cooler_id: "",
-    cpu: Cpu.last,
-    motherboard: Motherboard.last,
-    network_card_id: "",
-    power_supply: PowerSupply.last,
-    video_card_id: "",
-    image_url: ""
-  )
-end
+Build.create!(
+  user: User.first,
+  name: "My First Build",
+  description: "This is super cool!",
+  computer_case: ComputerCase.first,
+  cpu_cooler_id: "",
+  cpu: Cpu.first,
+  motherboard: Motherboard.first,
+  network_card_id: "",
+  power_supply: PowerSupply.first,
+  video_card_id: "",
+  image_url: "images/sample3.jpg"
+)
+
+Build.create!(
+  user: User.last,
+  name: "My Second Build",
+  description: "This was a fun one!",
+  computer_case: ComputerCase.last,
+  cpu_cooler_id: "",
+  cpu: Cpu.last,
+  motherboard: Motherboard.last,
+  network_card_id: "",
+  power_supply: PowerSupply.last,
+  video_card_id: "",
+  image_url: "images/sample4.jpg"
+)
+
+Build.create!(
+  user: User.all[1],
+  name: "This should be a fun Build",
+  description: "Excellent build! But expensive!",
+  computer_case: ComputerCase.last,
+  cpu_cooler_id: "",
+  cpu: Cpu.all[2],
+  motherboard: Motherboard.all[2],
+  network_card_id: "",
+  power_supply: PowerSupply.last,
+  video_card_id: "",
+  image_url: ""
+)
+Build.create!(
+  user: User.first,
+  name: "I will take this to the moon",
+  description: "This one can survive in any harsh situations!",
+  computer_case: ComputerCase.last,
+  cpu_cooler_id: "",
+  cpu: Cpu.last,
+  motherboard: Motherboard.all[2],
+  network_card_id: "",
+  power_supply: PowerSupply.all[3],
+  video_card_id: "",
+  image_url: "images/sample1.jpg"
+)
+Build.create!(
+  user: User.first,
+  name: "Time to tryout something new. ",
+  description: "It will take sometime to build this one.",
+  computer_case: ComputerCase.all[5],
+  cpu_cooler_id: "",
+  cpu: Cpu.all[2],
+  motherboard: Motherboard.last,
+  network_card_id: "",
+  power_supply: PowerSupply.last,
+  video_card_id: "",
+  image_url: "images/sample2.jpg"
+)
+
 
 MemoryCount.create!(
   memory_card: MemoryCard.last,
   build: Build.last
 )
+
 MemoryCount.create!(
   memory_card: MemoryCard.first,
   build: Build.first
 )
+
 HdCount.create!(
   hard_drive: HardDrive.last,
   build: Build.last
 )
+
 HdCount.create!(
   hard_drive: HardDrive.first,
   build: Build.first
 )
+
 Comment.create!(
   user: User.first,
   build: Build.first,
   body: "This was an interesting build!"
+)
+
+Comment.create!(
+  user: User.all[1],
+  build: Build.first,
+  body: "It would be better if you can get the extreme version!"
+)
+
+Comment.create!(
+  user: User.last,
+  build: Build.first,
+  body: "The extreme version is an overkill! Just stick with what you got there. "
 )
 
 

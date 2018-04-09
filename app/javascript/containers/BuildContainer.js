@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {browserHistory} from 'react-router';
 import BuildTile from '../components/BuildTile';
+import NewBuildTile from '../components/NewBuildTile';
 import DefaultBuilds from '../constants/DefaultBuilds';
 import Search from '../components/Search';
 import BuildButton from '../components/BuildButton';
@@ -57,6 +58,9 @@ class BuildContainer extends Component {
       let parsed = response.json()
       return parsed
     }).then(body => {
+      if (body.user) {
+         body.builds.unshift(body.builds[0])
+      }
       this.setState({
         searchedBuilds: body.builds,
         allBuilds: body.builds,
@@ -86,7 +90,10 @@ class BuildContainer extends Component {
         </li>
       );
     });
-    const renderBuilds = currentBuilds.map((build, index) => {
+    if (this.state.user && this.state.currentPage == 1 ) {
+      currentBuilds.shift()
+    }
+    let renderBuilds = currentBuilds.map((build, index) => {
       return(
         <div className="build-tile" key={index}>
           <BuildTile
@@ -99,17 +106,18 @@ class BuildContainer extends Component {
       )
     });
 
-    let buildButton;
-    if (this.state.user){
-      buildButton = <BuildButton />
-    } else {
-      buildButton = <p>Sign in to start your build!</p>
-    }
 
+
+    let newBuildTile = (
+        <div className="build-tile" >
+          <NewBuildTile/>
+        </div>)
+    if (this.state.user && this.state.currentPage == 1 ){
+      renderBuilds = [newBuildTile].concat(renderBuilds) }
     return(
       <div className="main-wrapper large-10 columns">
         <div className="top-field large-14 medium-12 small-12 columns">
-          <div className='search-button large-2 medium-12 small-12 columns' >{buildButton}</div>
+          <div className='search-button large-2 medium-12 small-12 columns' ></div>
       <div className="search-wrapper large-10 medium-12 small-12 columns">
         <div className="search-container">
           <Search searchBuilds={this.searchBuilds}/>

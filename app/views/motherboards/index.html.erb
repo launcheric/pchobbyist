@@ -1,8 +1,8 @@
-<h1><%= t "index.title.motherboards"  %></h1>
+<h1 class='text-center'><%= t "index.title.motherboards"  %></h1>
 <div class="parts">
-  <ul>
+  <ul class='list-group row'>
   <% @motherboards.each do |motherboard| %>
-    <li><%= link_to "#{motherboard.name}", motherboard_path(motherboard) %></li>
+    <li class="list-group-item"><%= link_to "#{motherboard.name}", motherboard_path(motherboard) %></li>
   <% end %>
   </ul>
 </div>

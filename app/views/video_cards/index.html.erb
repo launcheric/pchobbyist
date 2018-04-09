@@ -1,8 +1,8 @@
-<h1><%= t "index.title.video_cards"  %></h1>
+<h1 class='text-center'><%= t "index.title.video_cards"  %></h1>
 <div class="parts">
-  <ul>
+  <ul class='list-group row'>
   <% @video_cards.each do |video_card| %>
-    <li><%= link_to "#{video_card.name}", video_card_path(video_card) %></li>
+    <li class="list-group-item"><%= link_to "#{video_card.name}", video_card_path(video_card) %></li>
   <% end %>
   </ul>
 </div>

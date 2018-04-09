@@ -1,8 +1,8 @@
-<h1><%= t "index.title.processors"  %></h1>
+<h1 class='text-center'><%= t "index.title.processors"  %></h1>
 <div class="parts">
-  <ul>
+  <ul class='list-group row'>
   <% @cpus.each do |cpu| %>
-    <li><%= link_to "#{cpu.name}", cpu_path(cpu) %></li>
+    <li class="list-group-item"><%= link_to "#{cpu.name}", cpu_path(cpu) %></li>
   <% end %>
   </ul>
 </div>

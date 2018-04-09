@@ -1,5 +1,10 @@
 zh-CN:
   layout:
+    language: '语言'
+    profile: '用户资料'
+    builds: '虚拟组装'
+    my_builds: '我的组装'
+    new_build: '新组装'
     title: '电脑发烧友'
     my_build_link: '我的组装'
     edit_profile: '档案'
@@ -18,6 +23,7 @@ zh-CN:
     power_supplies: '电源'
     tutorials: '教程'
   index:
+    start_build_msg: '请登陆后开始建模！'
     title:
       computer_cases: '机箱'
       processors: '处理器'
@@ -84,3 +90,8 @@ zh-CN:
     core_clock: '核心时钟'
     boost_clock: '提升时钟'
     thermal_design_power: '最高瓦数'
+  devise:
+    sessions:
+      user:
+        signed_out: '登出'
+        signed_in: '登入'
