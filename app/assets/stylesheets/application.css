@@ -15,12 +15,13 @@
  *= require foundation_and_overrides
  */
 
-div {
-    line-height: 1.2rem;
-}
-.top-bar, .top-bar-section li:not(.has-form) a:not(.button){
+
+.top-bar, .top-bar-section {
   background: #0081B1;
 }
+
+
+
 .builds-wrapper {
   position: relative;
   margin: 0 auto;
