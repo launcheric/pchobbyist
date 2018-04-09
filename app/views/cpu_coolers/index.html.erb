@@ -1,8 +1,8 @@
-<h1><%= t "index.title.cpu_coolers"  %></h1>
+<h1 class='text-center'><%= t "index.title.cpu_coolers"  %></h1>
 <div class="parts">
-  <ul>
+  <ul class='list-group row'>
   <% @cpu_coolers.each do |cpu_cooler| %>
-    <li><%= link_to "#{cpu_cooler.name}", cpu_cooler_path(cpu_cooler) %></li>
+    <li class="list-group-item"><%= link_to "#{cpu_cooler.name}", cpu_cooler_path(cpu_cooler) %></li>
   <% end %>
   </ul>
 </div>

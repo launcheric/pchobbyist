@@ -54,36 +54,35 @@
       </table>
       <% if @build.user == current_user%>
       <%= form_for @build do |f| %>
-
-        <div class="field">
+        <div class="image_upload row">
           <%= f.label :image %><br>
           <%= f.file_field :image_url, accept: 'image/jpeg, image/gif, image/png, image/jpg' %>
-        </div>
         <div class="actions">
-          <%= f.submit %>
+          <%= f.submit 'Add an image',  class: 'button'%>
         </div>
+      </div>
       <% end %>
 
       <% end %>
     </div>
-    <div class="comment">
-      <div class="comments">
-        <ul>
+    <div class="comment large-10 columns">
+      <div class="comments commnent-section">
+        <ul class='list-group row'>
         <% @build.comments.each do |comment| %>
-          <li><%= comment.user.username %></li>
-          <li><%= comment.body %></li>
+          <li class="list-group-item"><%= comment.user.username %>: <br/>
+              <%= comment.body %></li>
         <% end %>
         </ul>
-
       </div>
-      <div class="new-comment">
+
+      <div class="new-comment row commnent-section">
         <% if current_user  %>
           <%= form_for [@build, Comment.new] do |f| %>
             <p>
             <%= f.label :body, "Add your comment:" %><br/>
             <%= f.text_area :body %>
             </p>
-            <p><%= f.submit "Add Comment"%></p>
+            <p><%= f.submit "Add Comment", class: 'button'%></p>
           <% end %>
         <% else  %>
           <p>Please sign in to comment.</p>

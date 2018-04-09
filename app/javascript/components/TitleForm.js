@@ -29,7 +29,7 @@ class TitleForm extends Component {
               type='text'
               value={this.props.description} />
           </label>
-          <input type='submit' value='Sounds Good' />
+          <input type='submit' value='Sounds Good' className='button'/>
         </form>
       </div>
   )}

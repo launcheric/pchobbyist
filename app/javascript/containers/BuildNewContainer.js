@@ -52,7 +52,7 @@ class BuildNewContainer extends Component {
 
   handleSubmit(){
     let token = $('meta[name=csrf-token]').attr('content');
-    fetch(`/api/v1/builds`, {
+    fetch(`/en/api/v1/builds`, {
       method: 'POST',
       body: JSON.stringify(this.state),
       credentials: 'same-origin',
@@ -209,8 +209,9 @@ class BuildNewContainer extends Component {
         }
     return(
       <div className="main-wrapper">
-        <p>Please save to a template or build.</p> <br/>
-        <p>If you exit the page without saving it, the build will be rest.</p> <br/>
+        <div data-alert className="alert-box info radius ">
+            If you exit the page without saving it, the build will be rest.
+        </div>
         { currentStage }
         { backButton }
       </div>

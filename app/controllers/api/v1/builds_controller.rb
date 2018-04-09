@@ -1,5 +1,6 @@
 class Api::V1::BuildsController < ApplicationController
   def index
+
     all_builds = []
     Build.all.order('id DESC').map do |build|
       video_card = ''

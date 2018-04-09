@@ -1,8 +1,8 @@
-<h1><%= t "index.title.hard_drives"  %></h1>
+<h1 class='text-center'><%= t "index.title.hard_drives"  %></h1>
 <div class="parts">
-  <ul>
+  <ul class='list-group row'>
   <% @hard_drives.each do |hard_drive| %>
-    <li><%= link_to "#{hard_drive.name}", hard_drife_path(hard_drive) %></li>
+    <li class="list-group-item"><%= link_to "#{hard_drive.name}", hard_drife_path(hard_drive) %></li>
   <% end %>
   </ul>
 </div>

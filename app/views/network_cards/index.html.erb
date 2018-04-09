@@ -1,8 +1,8 @@
-<h1><%= t "index.title.network_cards"  %></h1>
+<h1 class='text-center'><%= t "index.title.network_cards"  %></h1>
 <div class="parts">
-  <ul>
+  <ul class='list-group row'>
   <% @network_cards.each do |network_card| %>
-    <li><%= link_to "#{network_card.name}", network_card_path(network_card) %></li>
+    <li class="list-group-item"><%= link_to "#{network_card.name}", network_card_path(network_card) %></li>
   <% end %>
   </ul>
 </div>
